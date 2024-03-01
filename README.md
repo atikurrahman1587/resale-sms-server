@@ -1,7 +1,7 @@
 # Resale Sms Server
 
 ### Live
-•	<a href="https://msg.trubosms">Trubo SMS</a>
+•	<a href="https://msg.redmoit.com">Trubo SMS</a>
 
 ### Admin Section
 
