@@ -1,31 +1,119 @@
-# Resale Sms Server
+# Redmo SMS – Multi Gateway SMS Reseller Platform
 
-### Live
-•	<a href="https://msg.redmoit.com">Trubo SMS</a>
+A scalable **SMS reseller platform** that allows administrators to purchase SMS from multiple SMS providers and resell them to customers through a centralized dashboard.
 
-### Admin Section
+Users can send SMS directly from the panel, upload Excel files for dynamic bulk messaging, manage phonebooks, and integrate SMS functionality into their own applications via API.
+
+---
+
+## Features
+
+### Multi SMS Gateway Integration
+- Connect multiple SMS providers
+- Route SMS via selected gateway
+- Flexible SMS purchasing
+
+---
+
+### SMS Reseller System
+- Custom SMS pricing
+- Customer management
+- Balance tracking
+- Profit monitoring
+
+---
+
+### SMS Web Panel
+- Single SMS
+- Bulk SMS
+- SMS scheduling
+- Unicode SMS
+- Delivery reports
+
+---
+
+### Excel Dynamic SMS
+Upload Excel files to send personalized SMS messages.
+
+Example:
+
+| Name | Phone | Message |
+|-----|------|------|
+| Rahim | 88017xxxx | Hello Rahim |
+
+---
+
+### Phonebook System
+- Create contact groups
+- Import contacts
+- Send SMS to groups
+
+---
+
+### Developer API
+
+Send SMS from external systems using REST API.
+
+Example:
+ - https://msg.example.com/api/sms-send
 
 
-### Dashboard
-<p align="center">
-  <img src="https://github.com/atikurrahman1587/resale-sms-server/blob/main/admin-demo/admin-dashboard.png?raw=true" alt="accessibility text">
-</p>
+Parameters:
 
-### Create Sending Server
-<p align="center">
-  <img src="https://github.com/atikurrahman1587/resale-sms-server/blob/main/admin-demo/create-sending-server.png?raw=true" alt="accessibility text">
-</p>
+- api_token
+- sender_id
+- numbers
+- message
 
-### User Section
+---
 
+### Security System
 
-### Dashboard
-<p align="center">
-  <img src="https://github.com/atikurrahman1587/resale-sms-server/blob/main/user-demo/user-dashboard.png?raw=true" alt="accessibility text">
-</p>
+#### Spam Word Detection
+Block messages containing restricted keywords.
 
+#### Phone Number Blocking
+Prevent sending SMS to blocked numbers.
 
-### Send SMS
-<p align="center">
-  <img src="https://github.com/atikurrahman1587/resale-sms-server/blob/main/user-demo/SMS-Send.png?raw=true" alt="accessibility text">
-</p>
+---
+
+### Analytics Dashboard
+- SMS sent statistics
+- Revenue tracking
+- Customer activity
+- Monthly reports
+
+---
+
+## Tech Stack
+
+Backend:
+- Laravel
+- PHP
+
+Database:
+- MySQL
+
+Messaging:
+- Multi SMS Gateway API
+
+Other:
+- REST API
+- Queue System
+
+---
+
+## Future Improvements
+
+- WhatsApp messaging integration
+- AI spam detection
+- Advanced analytics dashboard
+
+---
+
+## Author
+
+Atikur Rahman  
+Laravel Developer
+
+GitHub: https://github.com/atikurrahman1587
