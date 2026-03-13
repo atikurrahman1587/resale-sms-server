@@ -111,15 +111,6 @@ Other:
 
 ---
 
-## Author
-
-Md Atikur Rahman  
-Full Stack Developer
-
-GitHub: https://github.com/atikurrahman1587
-
-LinkedIn: https://www.linkedin.com/in/atikurrahman1587
-
 # 🏗 System Architecture
 
 ```mermaid
@@ -154,3 +145,15 @@ SpamFilter -->|Block Spam Words| SMSWorker
 
 LaravelApp --> NumberBlocker
 NumberBlocker -->|Blocked Numbers| SMSWorker
+
+```
+---
+
+## Author
+
+Md Atikur Rahman  
+Full Stack Developer
+
+GitHub: https://github.com/atikurrahman1587
+
+LinkedIn: https://www.linkedin.com/in/atikurrahman1587
