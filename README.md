@@ -1,4 +1,4 @@
-# Redmo SMS – Multi Gateway SMS Reseller Platform
+# SMS Reseller Platform with Multi-Gateway API Integration
 
 A scalable **SMS reseller platform** that allows administrators to purchase SMS from multiple SMS providers and resell them to customers through a centralized dashboard.
 
@@ -113,7 +113,44 @@ Other:
 
 ## Author
 
-Atikur Rahman  
-Laravel Developer
+Md Atikur Rahman  
+Full Stack Developer
 
 GitHub: https://github.com/atikurrahman1587
+
+LinkedIn: https://www.linkedin.com/in/atikurrahman1587
+
+# 🏗 System Architecture
+
+```mermaid
+
+
+graph TD
+
+Admin -->|Manage Users & Pricing| AdminPanel
+AdminPanel --> LaravelApp
+
+User -->|Send SMS from Panel| WebDashboard
+WebDashboard --> LaravelApp
+
+User -->|Send SMS via API| DeveloperAPI
+DeveloperAPI --> LaravelApp
+
+LaravelApp --> QueueSystem
+QueueSystem --> SMSWorker
+
+SMSWorker --> GatewayX
+SMSWorker --> GatewayY
+SMSWorker --> GatewayZ
+
+GatewayX --> TelecomNetwork
+GatewayY --> TelecomNetwork
+GatewayZ --> TelecomNetwork
+
+LaravelApp --> MySQL
+
+LaravelApp --> SpamFilter
+SpamFilter -->|Block Spam Words| SMSWorker
+
+LaravelApp --> NumberBlocker
+NumberBlocker -->|Blocked Numbers| SMSWorker
