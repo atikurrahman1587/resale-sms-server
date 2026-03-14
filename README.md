@@ -149,11 +149,19 @@ NumberBlocker -->|Blocked Numbers| SMSWorker
 ```
 ---
 
-## Author
+## 👨‍💻 Developer
 
-Md Atikur Rahman  
-Full Stack Web Developer
+**Md Atikur Rahman**
 
-GitHub: https://github.com/atikurrahman1587
+Full Stack Web Developer  
+CSE Student – State University of Bangladesh
 
-LinkedIn: https://www.linkedin.com/in/atikurrahman1587
+---
+
+## 📫 Contact
+
+LinkedIn:  https://www.linkedin.com/in/atikurrahman1587
+
+Github:  https://github.com/atikurrahman1587
+
+Email: atikurrahman1587@gmail.com
